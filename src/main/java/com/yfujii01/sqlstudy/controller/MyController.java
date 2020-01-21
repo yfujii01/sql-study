@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
   @GetMapping
   public String index() {
-    return "my index!!!";
+    return "my index!!!fix!";
   }
 }

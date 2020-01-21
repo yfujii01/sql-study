@@ -1,0 +1,15 @@
+## ルート 
+http://localhost:8080/ 
+### 全部 
+http://localhost:8080/books/ 
+### 全部(降順) 
+http://localhost:8080/books/?sort=id,desc 
+### 指定 
+http://localhost:8080/books/1 
+### 追加(更新) 
+POST http://localhost:8080/books/ 
+Content-Type: application/json 
+ 
+{"id":"999","title":"foo","isbn":"123","publicationYear":"2020","pubId":"1"} 
+### 削除 
+DELETE http://localhost:8080/books/999
